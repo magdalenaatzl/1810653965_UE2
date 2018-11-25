@@ -8,12 +8,12 @@ public class Aufgabe3_1810653965 {
     public static void main(String[] args) {
 
 
-    String eingabe = JOptionPane.showInputDialog("gib eine Zahl ein");
+    String eingabe = JOptionPane.showInputDialog("gib etwas ein");
 
     double alter;
     alter = Double.parseDouble(eingabe);
     JOptionPane.showMessageDialog(null, alter);
-    //Ganzzahlen und Fließkommazahlen
+    //Fließkommazahlen
 
     int a = Integer.parseInt(eingabe);
     JOptionPane.showMessageDialog(null, a);
@@ -41,15 +41,12 @@ public class Aufgabe3_1810653965 {
 
     float g = Float.parseFloat(eingabe);
     JOptionPane.showMessageDialog(null, g);
-    //Fließkommazahlen und ganze Zahlen
+    //Fließkommazahlen
 
-    String.valueOf(alter);
+    /*Bei Eingabe von Zeichen funktioniert das Programm nicht, da es diese nicht in Zahlen umwandeln kann*/
+
+    String blabla = String.valueOf(alter);
     JOptionPane.showMessageDialog(null, alter);
-
-
-
-
-
 
     }
 }
